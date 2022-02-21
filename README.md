@@ -1,35 +1,35 @@
 # Univ-PracticeGuides
- 
-Practice Guides Status:
 
-1_Programation 1                                    - Done
-2_Programation 2                                    - Add files
-3_Programation 3                                    - Add files
-4_Algorithms and Complexity                         - Add files
-5_Introduction to Artificial Inteligence            - Add files
-6_Embeded System Programing                         - Add files
-7_Databases                                         - Add files
-8_Security                                          - Add files
-9_Software Engeniring                               - Add files
-10_Network Fundamentals                             - Add files
-11_Network Architecture                             - Add files
-12_Advanced Network Architecture                    - Add files
-13_Network Performace and Dimensioning              - Complete
-14_Project Management and Enterpernouship           - Add files
-15_Informatic Engeneering Project                   - Add files
-16_Others
-    1_Digital Systems Introduction                      - Add files
-    2_Digital Systems Laboratory                        - Add files
-    3_Computer Architecture 1                           - Add files
-    4_Computer Architecture 2                           - Add files
-    5_Advanced Computer Architecture                    - Add files
-    6_Reconfigurable Compputing                         - Add files
-    7_Operative Systems                                 - Add files
-    8_Distributed Systems                               - Add files
-    9_Probabilistic Methods to Informatic Engeneering   - Add files
-    10_Visual Computing                                 - Add files
-    11_Mobile Computing                                 - Add files
-    12_Iteraction Human Computer                        - Add files
-    13_System Analisys and Modelation                   - Add files
-    14_Data and Knolege Engeniring                      - Add files
-    15_Formal and Automatic Languages                   - Add files
+## Status
+
+* **D -** 1_Programation 1
+* **E -** 2_Programation 2
+* **E -** 3_Programation 3
+* **E -** 4_Algorithms and Complexity
+* **E -** 5_Introduction to Artificial Inteligence
+* **E -** 6_Embeded System Programing
+* **E -** 7_Databases
+* **M -** ~~8_Security~~
+* **E -** 9_Software Engeniring
+* **M -** ~~10_Network Fundamentals~~
+* **M -** ~~11_Network Architecture~~
+* **M -** ~~12_Advanced Network Architecture~~
+* **E -** 13_Network Performace and Dimensioning
+* **E -** 14_Project Management and Enterpernouship
+* **E -** 15_Informatic Engeneering Project
+* **E -** 16_Others
+  * **E -** 1_Digital Systems Introduction
+  * **E -** 2_Digital Systems Laboratory
+  * **E -** 3_Computer Architecture 1
+  * **E -** 4_Computer Architecture 2
+  * **E -** 5_Advanced Computer Architecture
+  * **E -** 6_Reconfigurable Compputing
+  * **E -** 7_Operative Systems
+  * **E -** 8_Distributed Systems
+  * **E -** 9_Probabilistic Methods to Informatic Engeneering
+  * **E -** 10_Visual Computing
+  * **E -** 11_Mobile Computing
+  * **E -** 12_Iteraction Human Computer
+  * **E -** 13_System Analisys and Modelation
+  * **E -** 14_Data and Knolege Engeniring
+  * **E -** 15_Formal and Automatic Languages
