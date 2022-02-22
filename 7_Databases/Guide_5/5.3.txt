@@ -1,0 +1,28 @@
+-- 5.3-a)
+
+-- k = σ numPresc=null (paciente⟕paciente.numUtente=prescricao.numUtente prescricao)
+
+-- 		 π paciente.numUtente,nome k
+
+-- 5.3-b)
+
+-- γ especialidade;count(numPresc)->NPresc (medico⨝numSNS=numMedico prescricao)
+
+-- 5.3-c)
+
+-- γ nome; count(numPresc)->NProc (farmacia⟕nome=farmacia prescricao)
+
+-- 5.3-d)
+
+-- (π nome σ numRegFarm=906 farmaco) - (π nomeFarmaco (σ numRegFarm=906 farmaco ⋊ presc_farmaco))
+
+-- 5.3-e)
+
+-- σ farmacia≠null γ farmacia,numRegFarm;count(nomeFarmaco)->Nfarm (prescricao⨝prescricao.numPresc=presc_farmaco.numPresc presc_farmaco)
+
+
+-- 5.3-f)
+
+-- k = γ nome;count(numMedico)->Nmed (paciente⨝paciente.numUtente=prescricao.numUtente prescricao)
+
+-- 		 π nome σ Nmed>1 k
