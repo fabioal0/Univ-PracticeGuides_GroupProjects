@@ -1,0 +1,1 @@
+Aula12_Ex3.PluginManager

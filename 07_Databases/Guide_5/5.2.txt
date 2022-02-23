@@ -1,0 +1,23 @@
+-- 5.2-a)
+
+-- k = σ fornecedor=null (fornecedor⟕ nif=fornecedor encomenda)
+
+-- 		 π nome,nif k
+		
+-- 5.2-b)
+
+-- γ codigo,nome; avg(item.unidades)->Mquantidade (item⨝codProd=codigo produto)
+
+-- 5.2-c)
+
+-- k = γ numero; count(codProd)->Mquantidade (encomenda⨝numero=numEnc item)
+
+-- γ avg(Mquantidade)->MedProd k
+
+-- 5.2-d)
+
+-- k = (fornecedor⨝nif=fornecedor encomenda)⨝numero=numEnc item
+
+--  	 π nif,nome,codProd,unidades k
+
+

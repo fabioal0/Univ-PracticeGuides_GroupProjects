@@ -1,0 +1,12 @@
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\bin\Debug\G1_1.2.exe.config
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\bin\Debug\G1_1.2.exe
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\bin\Debug\G1_1.2.pdb
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\bin\Debug\G1_1.2.xml
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\obj\Debug\G1_1.2.vbprojAssemblyReference.cache
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\obj\Debug\G1_1._2.Resources.resources
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\obj\Debug\G1_1.2.vbproj.GenerateResource.cache
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\obj\Debug\G1_1.2.vbproj.CoreCompileInputs.cache
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\obj\Debug\G1_1.2.exe
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\obj\Debug\G1_1.2.xml
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\obj\Debug\G1_1.2.pdb
+C:\Users\FábioAlves\Desktop\BD\G1_1.2\G1_1.2\obj\Debug\G1_1._2.Form2.resources
