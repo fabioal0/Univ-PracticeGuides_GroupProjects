@@ -2,15 +2,15 @@
 
 ## Status
 
-* **D -** 1_Programation 1
-* **D -** 2_Programation 2
-* **D -** 3_Programation 3
-* **D -** 4_Algorithms and Complexity
-* **D -** 5_Introduction to Artificial Inteligence
-* **D -** 6_Embeded System Programing
-* **D -** 7_Databases
-* **D -** 8_Security
-* **D -** 9_Software Engeniring
+* **D -** 01_Programation 1
+* **D -** 02_Programation 2
+* **D -** 03_Programation 3
+* **D -** 04_Algorithms and Complexity
+* **D -** 05_Introduction to Artificial Inteligence
+* **D -** 06_Embeded System Programing
+* **D -** 07_Databases
+* **D -** 08_Security
+* **D -** 09_Software Engeniring
 * **D -** 10_Network Fundamentals
 * **D -** 11_Network Architecture
 * **D -** 12_Advanced Network Architecture
@@ -18,15 +18,15 @@
 * **D -** 14_Project Management and Enterpernouship
 * **D -** 15_Informatic Engeneering Project
 * **D -** 16_Others
-  * **D -** ~~1_Digital Systems Introduction~~
-  * **D -** 2_Digital Systems Laboratory
-  * **M -** 3_Computer Architecture 1
-  * **D -** 4_Computer Architecture 2
-  * **D -** 5_Advanced Computer Architecture
-  * **M -** 6_Reconfigurable Compputing
-  * **D -** 7_Operative Systems
-  * **D -** ~~8_Distributed Systems~~
-  * **D -** 9_Probabilistic Methods to Informatic Engeneering
+  * **D -** ~~01_Digital Systems Introduction~~
+  * **D -** 02_Digital Systems Laboratory
+  * **M -** 03_Computer Architecture 1
+  * **D -** 04_Computer Architecture 2
+  * **D -** 05_Advanced Computer Architecture
+  * **M -** 06_Reconfigurable Compputing
+  * **D -** 07_Operative Systems
+  * **D -** ~~08_Distributed Systems~~
+  * **D -** 09_Probabilistic Methods to Informatic Engeneering
   * **D -** 10_Visual Computing
   * **M -** 11_Mobile Computing
   * **D -** 12_Iteraction Human Computer
