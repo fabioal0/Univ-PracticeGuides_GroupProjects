@@ -1,0 +1,16 @@
+|FlipFlopD_Demo
+SW[0] => flipflopd:ff_b.d
+SW[1] => flipflopd:ff_b.set
+SW[2] => flipflopd:ff_b.reset
+KEY[0] => flipflopd:ff_b.clk
+LEDR[0] << flipflopd:ff_b.q
+
+
+|FlipFlopD_Demo|FlipFlopD:ff_b
+clk => q~reg0.CLK
+set => q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+d => q.DATAB
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,63 @@
+|Block1
+LEDG[0] <= maquina:inst.Abrir
+CLOCK_50 => freqDivider:inst2.clkIn
+KEY[0] => inst1.IN0
+SW[0] => maquina:inst.V
+SW[1] => maquina:inst.C
+
+
+|Block1|maquina:inst
+reset => reg_fstate.E0.OUTPUTSELECT
+reset => reg_fstate.E1.OUTPUTSELECT
+reset => reg_fstate.E2.OUTPUTSELECT
+reset => reg_fstate.E3.OUTPUTSELECT
+reset => reg_fstate.E4.OUTPUTSELECT
+reset => reg_fstate.E5.OUTPUTSELECT
+reset => reg_Abrir.OUTPUTSELECT
+reset => Abrir.OUTPUTSELECT
+clock => fstate~1.DATAIN
+C => process_1.IN0
+C => process_1.IN0
+C => process_1.IN0
+V => process_1.IN1
+V => process_1.IN1
+V => process_1.IN1
+Abrir <= Abrir.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Block1|freqDivider:inst2
+clkIn => s_count[0].CLK
+clkIn => s_count[1].CLK
+clkIn => s_count[2].CLK
+clkIn => s_count[3].CLK
+clkIn => s_count[4].CLK
+clkIn => s_count[5].CLK
+clkIn => s_count[6].CLK
+clkIn => s_count[7].CLK
+clkIn => s_count[8].CLK
+clkIn => s_count[9].CLK
+clkIn => s_count[10].CLK
+clkIn => s_count[11].CLK
+clkIn => s_count[12].CLK
+clkIn => s_count[13].CLK
+clkIn => s_count[14].CLK
+clkIn => s_count[15].CLK
+clkIn => s_count[16].CLK
+clkIn => s_count[17].CLK
+clkIn => s_count[18].CLK
+clkIn => s_count[19].CLK
+clkIn => s_count[20].CLK
+clkIn => s_count[21].CLK
+clkIn => s_count[22].CLK
+clkIn => s_count[23].CLK
+clkIn => s_count[24].CLK
+clkIn => s_count[25].CLK
+clkIn => s_count[26].CLK
+clkIn => s_count[27].CLK
+clkIn => s_count[28].CLK
+clkIn => s_count[29].CLK
+clkIn => s_count[30].CLK
+clkIn => clkOut~reg0.CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

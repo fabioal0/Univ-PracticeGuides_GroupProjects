@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vaio/Desktop/Universidade/ECT/1Ano/2Semestre/LSD/aula3/parte 1/simulation/qsim
+vAdder4
+Z1 !s110 1488908358
+!i10b 1
+!s100 UYAVGz]1zEcWemHj=C2]53
+IdnJc[UA7N9m:OTGa<2c8?1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1488908353
+8AdderDemo.vo
+FAdderDemo.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1488908357.000000
+!s107 AdderDemo.vo|
+!s90 -work|work|AdderDemo.vo|
+!i113 1
+Z4 o-work work
+n@adder4
+vAdder4_vlg_vec_tst
+R1
+!i10b 1
+!s100 QXd0H;0foYzGM>R8aGNIS0
+I8=dWMN5HIboPN5oF]M7lN3
+R2
+R0
+w1488908347
+8Adder4.vwf.vt
+FAdder4.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1488908358.000000
+!s107 Adder4.vwf.vt|
+!s90 -work|work|Adder4.vwf.vt|
+!i113 1
+R4
+n@adder4_vlg_vec_tst

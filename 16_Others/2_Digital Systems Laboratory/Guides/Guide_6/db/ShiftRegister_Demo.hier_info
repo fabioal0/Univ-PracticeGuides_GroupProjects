@@ -1,0 +1,69 @@
+|ShiftRegister_Demo
+CLOCK_50 => freqdivider:freq.clkIn
+SW[0] => shiftregistern:desl.s_In
+LEDR[0] <= shiftregistern:desl.dataOut[0]
+LEDR[1] <= shiftregistern:desl.dataOut[1]
+LEDR[2] <= shiftregistern:desl.dataOut[2]
+LEDR[3] <= shiftregistern:desl.dataOut[3]
+LEDR[4] <= shiftregistern:desl.dataOut[4]
+LEDR[5] <= shiftregistern:desl.dataOut[5]
+LEDR[6] <= shiftregistern:desl.dataOut[6]
+LEDR[7] <= shiftregistern:desl.dataOut[7]
+
+
+|ShiftRegister_Demo|freqDivider:freq
+clkIn => s_count[0].CLK
+clkIn => s_count[1].CLK
+clkIn => s_count[2].CLK
+clkIn => s_count[3].CLK
+clkIn => s_count[4].CLK
+clkIn => s_count[5].CLK
+clkIn => s_count[6].CLK
+clkIn => s_count[7].CLK
+clkIn => s_count[8].CLK
+clkIn => s_count[9].CLK
+clkIn => s_count[10].CLK
+clkIn => s_count[11].CLK
+clkIn => s_count[12].CLK
+clkIn => s_count[13].CLK
+clkIn => s_count[14].CLK
+clkIn => s_count[15].CLK
+clkIn => s_count[16].CLK
+clkIn => s_count[17].CLK
+clkIn => s_count[18].CLK
+clkIn => s_count[19].CLK
+clkIn => s_count[20].CLK
+clkIn => s_count[21].CLK
+clkIn => s_count[22].CLK
+clkIn => s_count[23].CLK
+clkIn => s_count[24].CLK
+clkIn => s_count[25].CLK
+clkIn => s_count[26].CLK
+clkIn => s_count[27].CLK
+clkIn => s_count[28].CLK
+clkIn => s_count[29].CLK
+clkIn => s_count[30].CLK
+clkIn => clkOut~reg0.CLK
+clkOut <= clkOut~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|ShiftRegister_Demo|ShiftRegisterN:desl
+s_In => s_shiftReg[0].DATAIN
+clk => s_shiftReg[0].CLK
+clk => s_shiftReg[1].CLK
+clk => s_shiftReg[2].CLK
+clk => s_shiftReg[3].CLK
+clk => s_shiftReg[4].CLK
+clk => s_shiftReg[5].CLK
+clk => s_shiftReg[6].CLK
+clk => s_shiftReg[7].CLK
+dataOut[0] <= s_shiftReg[0].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[1] <= s_shiftReg[1].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[2] <= s_shiftReg[2].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[3] <= s_shiftReg[3].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[4] <= s_shiftReg[4].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[5] <= s_shiftReg[5].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[6] <= s_shiftReg[6].DB_MAX_OUTPUT_PORT_TYPE
+dataOut[7] <= s_shiftReg[7].DB_MAX_OUTPUT_PORT_TYPE
+
+
