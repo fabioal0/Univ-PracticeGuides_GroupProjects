@@ -5,31 +5,31 @@
 * **D -** 1_Programation 1
 * **E -** 2_Programation 2
 * **E -** 3_Programation 3
-* **E -** 4_Algorithms and Complexity
-* **E -** 5_Introduction to Artificial Inteligence
-* **E -** 6_Embeded System Programing
-* **E -** 7_Databases
-* **M -** ~~8_Security~~
-* **E -** 9_Software Engeniring
-* **M -** ~~10_Network Fundamentals~~
-* **M -** ~~11_Network Architecture~~
-* **M -** ~~12_Advanced Network Architecture~~
-* **E -** 13_Network Performace and Dimensioning
-* **E -** 14_Project Management and Enterpernouship
-* **E -** 15_Informatic Engeneering Project
-* **E -** 16_Others
-  * **E -** 1_Digital Systems Introduction
-  * **E -** 2_Digital Systems Laboratory
-  * **E -** 3_Computer Architecture 1
-  * **E -** 4_Computer Architecture 2
-  * **E -** 5_Advanced Computer Architecture
-  * **E -** 6_Reconfigurable Compputing
-  * **E -** 7_Operative Systems
-  * **E -** 8_Distributed Systems
-  * **E -** 9_Probabilistic Methods to Informatic Engeneering
-  * **E -** 10_Visual Computing
-  * **E -** 11_Mobile Computing
-  * **E -** 12_Iteraction Human Computer
-  * **E -** 13_System Analisys and Modelation
-  * **E -** 14_Data and Knolege Engeniring
-  * **E -** 15_Formal and Automatic Languages
+* **D -** 4_Algorithms and Complexity
+* **D -** 5_Introduction to Artificial Inteligence
+* **D -** 6_Embeded System Programing
+* **D -** 7_Databases
+* **D -** 8_Security
+* **D -** 9_Software Engeniring
+* **D -** 10_Network Fundamentals
+* **D -** 11_Network Architecture
+* **D -** 12_Advanced Network Architecture
+* **D -** 13_Network Performace and Dimensioning
+* **D -** 14_Project Management and Enterpernouship
+* **D -** 15_Informatic Engeneering Project
+* **D -** 16_Others
+  * **D -** ~~1_Digital Systems Introduction~~
+  * **D -** 2_Digital Systems Laboratory
+  * **M -** 3_Computer Architecture 1
+  * **D -** 4_Computer Architecture 2
+  * **D -** 5_Advanced Computer Architecture
+  * **M -** 6_Reconfigurable Compputing
+  * **D -** 7_Operative Systems
+  * **D -** ~~8_Distributed Systems~~
+  * **D -** 9_Probabilistic Methods to Informatic Engeneering
+  * **D -** 10_Visual Computing
+  * **M -** 11_Mobile Computing
+  * **D -** 12_Iteraction Human Computer
+  * **M -** 13_System Analisys and Modelation
+  * **M -** 14_Data and Knolege Engeniring
+  * **M -** 15_Formal and Automatic Languages
