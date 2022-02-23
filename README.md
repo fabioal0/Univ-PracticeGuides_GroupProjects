@@ -3,8 +3,8 @@
 ## Status
 
 * **D -** 1_Programation 1
-* **E -** 2_Programation 2
-* **E -** 3_Programation 3
+* **D -** 2_Programation 2
+* **D -** 3_Programation 3
 * **D -** 4_Algorithms and Complexity
 * **D -** 5_Introduction to Artificial Inteligence
 * **D -** 6_Embeded System Programing
