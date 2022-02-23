@@ -1,5 +1,0 @@
-CSV
-  d  4  4 de Abril de 4
-  c  3  3 de Marco de 3
-  b  2  2 de Fevereiro de 2
-  a  1  1 de Janeiro de 1
