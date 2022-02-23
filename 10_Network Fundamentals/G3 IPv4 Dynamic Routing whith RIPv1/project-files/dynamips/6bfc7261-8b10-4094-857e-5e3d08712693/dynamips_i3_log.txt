@@ -1,0 +1,21 @@
+Dec 16 08:56:56.284 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Dec 16 08:56:56.285 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 51061.
+Dec 16 08:56:56.294 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 16 08:56:56.295 HYPERVISOR: exec_cmd: hypervisor working_dir /home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/project-files/dynamips 
+Dec 16 08:56:56.295 GENERAL: working_dir=/home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/project-files/dynamips
+Dec 16 08:56:56.295 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-3 
+Dec 16 08:56:56.784 HYPERVISOR: exec_cmd: nio create_udp udp-912a5405-bdc7-4142-afe3-80e4285e8a32 10012 127.0.0.1 10013 
+Dec 16 08:56:56.785 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-912a5405-bdc7-4142-afe3-80e4285e8a32 
+Dec 16 08:56:56.805 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-912a5405-bdc7-4142-afe3-80e4285e8a32 1 
+Dec 16 08:56:56.981 HYPERVISOR: exec_cmd: nio create_udp udp-8967877e-f323-42dd-9e5b-f68598f15fe8 10019 127.0.0.1 10018 
+Dec 16 08:56:56.981 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-8967877e-f323-42dd-9e5b-f68598f15fe8 
+Dec 16 08:56:56.986 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-8967877e-f323-42dd-9e5b-f68598f15fe8 1 
+Dec 16 08:56:57.144 HYPERVISOR: exec_cmd: nio create_udp udp-337adb6a-1bd9-437a-b158-287d615504cb 10027 127.0.0.1 10026 
+Dec 16 08:56:57.144 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-337adb6a-1bd9-437a-b158-287d615504cb 
+Dec 16 08:56:57.146 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-337adb6a-1bd9-437a-b158-287d615504cb 1 
+Dec 16 09:12:58.706 HYPERVISOR: exec_cmd: nio bind_filter udp-337adb6a-1bd9-437a-b158-287d615504cb 2 capture 
+Dec 16 09:12:58.709 HYPERVISOR: exec_cmd: nio setup_filter udp-337adb6a-1bd9-437a-b158-287d615504cb 2 en10mb /home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/tmp/captures/R3_FastEthernet01_to_Ethernetswitch-3_Ethernet1.pcap 
+Dec 16 09:38:22.890 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-3 
+Dec 16 09:38:22.950 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 16 09:38:23.207 HYPERVISOR: Stopped.
+Dec 16 09:38:23.208 GENERAL: reset done.

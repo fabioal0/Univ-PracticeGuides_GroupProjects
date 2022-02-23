@@ -1,0 +1,26 @@
+Dec 16 08:56:56.230 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Dec 16 08:56:56.230 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 56215.
+Dec 16 08:56:56.233 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 16 08:56:56.233 HYPERVISOR: exec_cmd: hypervisor working_dir /home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/project-files/dynamips 
+Dec 16 08:56:56.233 GENERAL: working_dir=/home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/project-files/dynamips
+Dec 16 08:56:56.234 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-1 
+Dec 16 08:56:56.579 HYPERVISOR: exec_cmd: nio create_udp udp-7494d911-2bef-46b1-9a08-6916c978a062 10004 127.0.0.1 10005 
+Dec 16 08:56:56.580 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-7494d911-2bef-46b1-9a08-6916c978a062 
+Dec 16 08:56:56.589 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-7494d911-2bef-46b1-9a08-6916c978a062 1 
+Dec 16 08:56:56.720 HYPERVISOR: exec_cmd: nio create_udp udp-06c8c622-895c-497d-8003-ca3c21fb2817 10010 127.0.0.1 10011 
+Dec 16 08:56:56.721 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-06c8c622-895c-497d-8003-ca3c21fb2817 
+Dec 16 08:56:56.729 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-06c8c622-895c-497d-8003-ca3c21fb2817 1 
+Dec 16 08:56:57.029 HYPERVISOR: exec_cmd: nio create_udp udp-bd6230fd-1040-4550-8701-b70e98417941 10022 127.0.0.1 10023 
+Dec 16 08:56:57.029 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-1 udp-bd6230fd-1040-4550-8701-b70e98417941 
+Dec 16 08:56:57.030 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-bd6230fd-1040-4550-8701-b70e98417941 1 
+Dec 16 09:01:47.460 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-06c8c622-895c-497d-8003-ca3c21fb2817 1 
+Dec 16 09:01:47.462 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-7494d911-2bef-46b1-9a08-6916c978a062 1 
+Dec 16 09:01:47.463 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-1 udp-bd6230fd-1040-4550-8701-b70e98417941 1 
+Dec 16 09:01:50.776 HYPERVISOR: exec_cmd: nio bind_filter udp-06c8c622-895c-497d-8003-ca3c21fb2817 2 capture 
+Dec 16 09:01:50.777 HYPERVISOR: exec_cmd: nio setup_filter udp-06c8c622-895c-497d-8003-ca3c21fb2817 2 en10mb /home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/tmp/captures/Ethernetswitch-1_Ethernet0_to_PC-B_Ethernet0.pcap 
+Dec 16 09:12:46.331 HYPERVISOR: exec_cmd: nio bind_filter udp-7494d911-2bef-46b1-9a08-6916c978a062 2 capture 
+Dec 16 09:12:46.332 HYPERVISOR: exec_cmd: nio setup_filter udp-7494d911-2bef-46b1-9a08-6916c978a062 2 en10mb /home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/tmp/captures/Ethernetswitch-1_Ethernet1_to_R2_FastEthernet01.pcap 
+Dec 16 09:38:22.890 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-1 
+Dec 16 09:38:22.939 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 16 09:38:23.147 HYPERVISOR: Stopped.
+Dec 16 09:38:23.147 GENERAL: reset done.

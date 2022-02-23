@@ -1,0 +1,19 @@
+Dec 17 19:06:55.193 HYPERVISOR: Release 0.2.18-amd64/Linux (tag 2018033112)
+Dec 17 19:06:55.193 HYPERVISOR: Started on IP = 127.0.0.1, TCP port = 33619.
+Dec 17 19:06:55.204 HYPERVISOR: exec_cmd: hypervisor version 
+Dec 17 19:06:55.205 HYPERVISOR: exec_cmd: hypervisor working_dir /home/fabio/Desktop/Fundamentos de redes/G3 IPv4 Static Routing/project-files/dynamips 
+Dec 17 19:06:55.205 GENERAL: working_dir=/home/fabio/Desktop/Fundamentos de redes/G3 IPv4 Static Routing/project-files/dynamips
+Dec 17 19:06:55.205 HYPERVISOR: exec_cmd: ethsw create Ethernetswitch-3 
+Dec 17 19:06:55.474 HYPERVISOR: exec_cmd: nio create_udp udp-cbb225cd-c352-45db-9511-5cb0c2607b02 10003 127.0.0.1 10002 
+Dec 17 19:06:55.474 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-cbb225cd-c352-45db-9511-5cb0c2607b02 
+Dec 17 19:06:55.493 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-cbb225cd-c352-45db-9511-5cb0c2607b02 1 
+Dec 17 19:06:55.916 HYPERVISOR: exec_cmd: nio create_udp udp-593ff0a0-4ba1-44ae-9e9d-b74a103de5d3 10019 127.0.0.1 10018 
+Dec 17 19:06:55.917 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-593ff0a0-4ba1-44ae-9e9d-b74a103de5d3 
+Dec 17 19:06:55.935 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-593ff0a0-4ba1-44ae-9e9d-b74a103de5d3 1 
+Dec 17 19:06:55.985 HYPERVISOR: exec_cmd: nio create_udp udp-576397cd-402b-487c-a040-f1691f5f2ed8 10022 127.0.0.1 10023 
+Dec 17 19:06:55.986 HYPERVISOR: exec_cmd: ethsw add_nio Ethernetswitch-3 udp-576397cd-402b-487c-a040-f1691f5f2ed8 
+Dec 17 19:06:55.994 HYPERVISOR: exec_cmd: ethsw set_access_port Ethernetswitch-3 udp-576397cd-402b-487c-a040-f1691f5f2ed8 1 
+Dec 17 19:10:15.430 HYPERVISOR: exec_cmd: ethsw delete Ethernetswitch-3 
+Dec 17 19:10:15.475 HYPERVISOR: exec_cmd: hypervisor stop 
+Dec 17 19:10:15.812 HYPERVISOR: Stopped.
+Dec 17 19:10:15.812 GENERAL: reset done.

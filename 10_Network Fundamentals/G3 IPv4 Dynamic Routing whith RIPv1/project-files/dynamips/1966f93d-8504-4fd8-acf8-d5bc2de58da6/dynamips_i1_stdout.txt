@@ -1,0 +1,14 @@
+Cisco Router Simulation Platform (version 0.2.18-amd64/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Apr  3 2018 09:35:00
+
+Log file: writing to dynamips_i1_log.txt
+Hypervisor TCP control server started (IP 127.0.0.1 port 56215).
+NIO udp-06c8c622-895c-497d-8003-ca3c21fb2817: capturing to file '/home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/tmp/captures/Ethernetswitch-1_Ethernet0_to_PC-B_Ethernet0.pcap'
+NIO udp-7494d911-2bef-46b1-9a08-6916c978a062: capturing to file '/home/fabio/Desktop/Fundamentos de redes/G3 Dynamic Routing whith RIPv1/tmp/captures/Ethernetswitch-1_Ethernet1_to_R2_FastEthernet01.pcap'
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+NIO udp-06c8c622-895c-497d-8003-ca3c21fb2817: ending packet capture.
+NIO udp-7494d911-2bef-46b1-9a08-6916c978a062: ending packet capture.
+Shutdown completed.
