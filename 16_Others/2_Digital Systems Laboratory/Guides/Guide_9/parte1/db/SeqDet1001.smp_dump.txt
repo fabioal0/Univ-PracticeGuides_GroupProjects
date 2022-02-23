@@ -1,8 +1,0 @@
-
-State Machine - |SeqDetFSM|sel
-Name sel.E5 sel.E4 sel.E3 sel.E2 sel.E1 
-sel.E1 0 0 0 0 0 
-sel.E2 0 0 0 1 1 
-sel.E3 0 0 1 0 1 
-sel.E4 0 1 0 0 1 
-sel.E5 1 0 0 0 1 
