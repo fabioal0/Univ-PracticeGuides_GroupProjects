@@ -1,0 +1,9 @@
+Jan 07 09:48:47.652 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 07 09:48:47.652 HYPERVISOR: Started on IP = localhost, TCP port = 37269.
+Jan 07 09:48:47.664 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 07 09:48:47.664 HYPERVISOR: exec_cmd: hypervisor working_dir /home/fabio/Desktop/ARA/Lesson_5/project-files/dynamips 
+Jan 07 09:48:47.664 GENERAL: working_dir=/home/fabio/Desktop/ARA/Lesson_5/project-files/dynamips
+Jan 07 09:48:47.665 HYPERVISOR: exec_cmd: ethsw create netB.2 
+Jan 07 09:48:49.945 HYPERVISOR: exec_cmd: nio create_udp udp-9e6710fa-301c-4364-be15-0e8348f9e2e6 10053 127.0.0.1 10052 
+Jan 07 09:48:49.946 HYPERVISOR: exec_cmd: ethsw add_nio netB.2 udp-9e6710fa-301c-4364-be15-0e8348f9e2e6 
+Jan 07 09:48:49.960 HYPERVISOR: exec_cmd: ethsw set_access_port netB.2 udp-9e6710fa-301c-4364-be15-0e8348f9e2e6 1 

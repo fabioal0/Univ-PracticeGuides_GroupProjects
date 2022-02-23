@@ -1,0 +1,33 @@
+Jan 07 09:48:47.474 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 07 09:48:47.474 HYPERVISOR: Started on IP = localhost, TCP port = 33531.
+Jan 07 09:48:47.486 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 07 09:48:47.486 HYPERVISOR: exec_cmd: hypervisor working_dir /home/fabio/Desktop/ARA/Lesson_5/project-files/dynamips 
+Jan 07 09:48:47.486 GENERAL: working_dir=/home/fabio/Desktop/ARA/Lesson_5/project-files/dynamips
+Jan 07 09:48:47.487 HYPERVISOR: exec_cmd: hypervisor working_dir /home/fabio/Desktop/ARA/Lesson_5/project-files/dynamips/e0cc3c38-dccc-459c-8041-0605ec832adb 
+Jan 07 09:48:47.487 GENERAL: working_dir=/home/fabio/Desktop/ARA/Lesson_5/project-files/dynamips/e0cc3c38-dccc-459c-8041-0605ec832adb
+Jan 07 09:48:47.487 HYPERVISOR: exec_cmd: vm create R1 4 c7200 
+Jan 07 09:48:47.487 VM: VM R1 created.
+Jan 07 09:48:47.488 HYPERVISOR: exec_cmd: vm set_con_tcp_port R1 5003 
+Jan 07 09:48:47.488 HYPERVISOR: exec_cmd: c7200 get_mac_addr R1 
+Jan 07 09:48:47.489 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 07 09:48:47.489 HYPERVISOR: exec_cmd: vm slot_add_binding R1 0 0 C7200-IO-FE 
+Jan 07 09:48:47.490 HYPERVISOR: exec_cmd: vm set_disk0 R1 0 
+Jan 07 09:48:47.490 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 07 09:48:47.490 HYPERVISOR: exec_cmd: vm set_idle_pc R1 0x63185efc 
+Jan 07 09:48:47.491 HYPERVISOR: exec_cmd: vm set_ios R1 /home/fabio/GNS3/images/IOS/c7200-advipservicesk9-mz.152-4.S5.image 
+Jan 07 09:48:47.492 HYPERVISOR: exec_cmd: c7200 set_mac_addr R1 ca04.0b19.0000 
+Jan 07 09:48:47.492 HYPERVISOR: exec_cmd: vm set_nvram R1 512 
+Jan 07 09:48:47.492 HYPERVISOR: exec_cmd: vm set_ram R1 512 
+Jan 07 09:48:47.493 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 07 09:48:47.493 HYPERVISOR: exec_cmd: vm slot_add_binding R1 1 0 PA-2FE-TX 
+Jan 07 09:48:47.493 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 07 09:48:47.493 HYPERVISOR: exec_cmd: vm slot_add_binding R1 2 0 PA-2FE-TX 
+Jan 07 09:48:48.480 HYPERVISOR: exec_cmd: nio create_udp udp-a68122ff-c8e8-4a17-a9a9-53ab452da441 10018 127.0.0.1 10019 
+Jan 07 09:48:48.698 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 0 0 udp-a68122ff-c8e8-4a17-a9a9-53ab452da441 
+Jan 07 09:48:48.700 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 07 09:48:49.100 HYPERVISOR: exec_cmd: nio create_udp udp-716682f5-f99c-4ce1-8197-b3a0b487bb44 10026 127.0.0.1 10027 
+Jan 07 09:48:49.102 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 1 0 udp-716682f5-f99c-4ce1-8197-b3a0b487bb44 
+Jan 07 09:48:49.102 HYPERVISOR: exec_cmd: vm get_status R1 
+Jan 07 09:48:49.268 HYPERVISOR: exec_cmd: nio create_udp udp-ffbd0ee1-717f-4c5d-8714-a28e3808fa68 10034 127.0.0.1 10035 
+Jan 07 09:48:49.270 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R1 2 0 udp-ffbd0ee1-717f-4c5d-8714-a28e3808fa68 
+Jan 07 09:48:49.270 HYPERVISOR: exec_cmd: vm get_status R1 

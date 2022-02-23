@@ -1,0 +1,12 @@
+Jan 07 09:48:47.726 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jan 07 09:48:47.726 HYPERVISOR: Started on IP = localhost, TCP port = 59577.
+Jan 07 09:48:47.737 HYPERVISOR: exec_cmd: hypervisor version 
+Jan 07 09:48:47.737 HYPERVISOR: exec_cmd: hypervisor working_dir /home/fabio/Desktop/ARA/Lesson_5/project-files/dynamips 
+Jan 07 09:48:47.737 GENERAL: working_dir=/home/fabio/Desktop/ARA/Lesson_5/project-files/dynamips
+Jan 07 09:48:47.738 HYPERVISOR: exec_cmd: ethsw create ES1 
+Jan 07 09:48:48.317 HYPERVISOR: exec_cmd: nio create_udp udp-09300ce3-b4b4-4e60-9105-ab406a3e293e 10009 127.0.0.1 10008 
+Jan 07 09:48:48.317 HYPERVISOR: exec_cmd: ethsw add_nio ES1 udp-09300ce3-b4b4-4e60-9105-ab406a3e293e 
+Jan 07 09:48:48.326 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-09300ce3-b4b4-4e60-9105-ab406a3e293e 1 
+Jan 07 09:48:48.721 HYPERVISOR: exec_cmd: nio create_udp udp-88116327-e4dd-49ed-b779-0746facd82f7 10017 127.0.0.1 10016 
+Jan 07 09:48:48.722 HYPERVISOR: exec_cmd: ethsw add_nio ES1 udp-88116327-e4dd-49ed-b779-0746facd82f7 
+Jan 07 09:48:48.728 HYPERVISOR: exec_cmd: ethsw set_access_port ES1 udp-88116327-e4dd-49ed-b779-0746facd82f7 1 
