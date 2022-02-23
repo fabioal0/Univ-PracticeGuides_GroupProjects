@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula4/Pare3/simulation/qsim
+vCounterDown4
+Z1 !s110 1489516727
+!i10b 1
+!s100 [P@KVn5=Jk3nlMKb>k6[B1
+IEREf6YjP0V_@<iHf@BBk73
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1489516725
+Z3 8Counter_Demo.vo
+Z4 FCounter_Demo.vo
+Z5 L0 32
+Z6 OV;L;10.4b;61
+r1
+!s85 0
+31
+Z7 !s108 1489516727.000000
+Z8 !s107 Counter_Demo.vo|
+Z9 !s90 -work|work|Counter_Demo.vo|
+!i113 1
+Z10 o-work work
+n@counter@down4
+vCounterDown4_vlg_vec_tst
+R1
+!i10b 1
+!s100 XkK9M3;iO2E=^PAnP2@Ve2
+I14hRPPb?J0mAef=A0;[6n0
+R2
+R0
+w1489516720
+Z11 8CounterDown4.vwf.vt
+Z12 FCounterDown4.vwf.vt
+Z13 L0 30
+R6
+r1
+!s85 0
+31
+R7
+!s107 CounterDown4.vwf.vt|
+Z14 !s90 -work|work|CounterDown4.vwf.vt|
+!i113 1
+R10
+n@counter@down4_vlg_vec_tst
+vCounterUpDown4
+Z15 !s110 1494527546
+!i10b 1
+!s100 MmJ8=R9EH4@WilWV^3?b30
+I]7azH[5?nBLD[jj1^1Fh42
+R2
+R0
+w1494527544
+R3
+R4
+R5
+R6
+r1
+!s85 0
+31
+Z16 !s108 1494527546.000000
+R8
+R9
+!i113 1
+R10
+n@counter@up@down4
+vCounterUpDown4_vlg_vec_tst
+R15
+!i10b 1
+!s100 0bY^@G6E8UdP`H5dhdkgi1
+IV7hCzeb>W3:e:>z9Z5j^J2
+R2
+R0
+w1494527535
+R11
+R12
+R13
+R6
+r1
+!s85 0
+31
+R16
+!s107 CounterDown4.vwf.vt|
+R14
+!i113 1
+R10
+n@counter@up@down4_vlg_vec_tst

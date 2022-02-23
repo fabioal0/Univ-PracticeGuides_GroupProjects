@@ -1,0 +1,61 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.all;
+
+
+entity contador_up_down_Tb is
+
+end contador_up_down_Tb;
+
+
+architecture Stimulus of contador_up_down_Tb is
+
+		signal s_reset 	: 	in 	std_logic ;
+		signal s_clk	 	: 	in  	std_logic ;
+		signal s_enable 	: 	in  	std_logic ;
+		signal s_upDown_n:	in  	std_logic ;
+		signal s_cntOut	: 	out  	std_logic_vector (3 downto  0);
+		
+begin
+
+	uut: entity work.contador_up_down_Tb(Behavioral)
+
+			port (reset 	=> 	s_reset ,
+					clk	 	=> 	s_clok ,
+					enable 	=> 	s_enable ,
+					upDown_n => 	s_upDown_n,
+					cntOut 	=>		s_cntOut);
+
+stim_proc : process
+begin
+
+	wait for 100 ns;
+	s_reset 		<= '0';
+	s_clok  		<= '1';
+	s_enable		<= '0';
+	s_upDown_n	<=	'1';
+	
+	
+	wait for 100 ns;
+	s_reset 		<= '0';
+	s_clok  		<= '1';
+	s_enable		<= '1';
+	s_upDown_n	<=	'1';
+	
+	wait for 100 ns;
+	s_reset 		<= '0';
+	s_clok  		<= '1';
+	s_enable		<= '1';
+	s_upDown_n	<=	'0';
+	
+	
+	wait for 100 ns;
+	s_reset 		<= '1';
+	s_clok  		<= '1';
+	s_enable		<= '1';
+	s_upDown_n	<=	'1';
+	
+	wait for 100 ns;
+
+end process;
+
+end Stimulus;

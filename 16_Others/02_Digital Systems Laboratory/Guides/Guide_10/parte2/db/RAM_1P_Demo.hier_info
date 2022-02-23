@@ -1,0 +1,77 @@
+|RAM_1P_Demo
+KEY[0] => ram_1_swr_ard:atr.Clk
+SW[0] => ram_1_swr_ard:atr.adress[0]
+SW[1] => ram_1_swr_ard:atr.adress[1]
+SW[2] => ram_1_swr_ard:atr.adress[2]
+SW[3] => ram_1_swr_ard:atr.adress[3]
+SW[4] => ram_1_swr_ard:atr.data[0]
+SW[5] => ram_1_swr_ard:atr.data[1]
+SW[6] => ram_1_swr_ard:atr.data[2]
+SW[7] => ram_1_swr_ard:atr.data[3]
+SW[8] => ram_1_swr_ard:atr.data[4]
+SW[9] => ram_1_swr_ard:atr.data[5]
+SW[10] => ram_1_swr_ard:atr.data[6]
+SW[11] => ram_1_swr_ard:atr.data[7]
+SW[12] => ram_1_swr_ard:atr.enable
+LEDR[0] << ram_1_swr_ard:atr.read_d[0]
+LEDR[1] << ram_1_swr_ard:atr.read_d[1]
+LEDR[2] << ram_1_swr_ard:atr.read_d[2]
+LEDR[3] << ram_1_swr_ard:atr.read_d[3]
+LEDR[4] << ram_1_swr_ard:atr.read_d[4]
+LEDR[5] << ram_1_swr_ard:atr.read_d[5]
+LEDR[6] << ram_1_swr_ard:atr.read_d[6]
+LEDR[7] << ram_1_swr_ard:atr.read_d[7]
+
+
+|RAM_1P_Demo|RAM_1_SWR_ARD:atr
+Clk => s_memory~11.CLK
+Clk => s_memory~0.CLK
+Clk => s_memory~1.CLK
+Clk => s_memory~2.CLK
+Clk => s_memory~3.CLK
+Clk => s_memory~4.CLK
+Clk => s_memory~5.CLK
+Clk => s_memory~6.CLK
+Clk => s_memory~7.CLK
+Clk => s_memory~8.CLK
+Clk => s_memory~9.CLK
+Clk => s_memory~10.CLK
+Clk => s_memory.CLK0
+enable => s_memory~11.DATAIN
+enable => s_memory.WE
+data[0] => s_memory~10.DATAIN
+data[0] => s_memory.DATAIN
+data[1] => s_memory~9.DATAIN
+data[1] => s_memory.DATAIN1
+data[2] => s_memory~8.DATAIN
+data[2] => s_memory.DATAIN2
+data[3] => s_memory~7.DATAIN
+data[3] => s_memory.DATAIN3
+data[4] => s_memory~6.DATAIN
+data[4] => s_memory.DATAIN4
+data[5] => s_memory~5.DATAIN
+data[5] => s_memory.DATAIN5
+data[6] => s_memory~4.DATAIN
+data[6] => s_memory.DATAIN6
+data[7] => s_memory~3.DATAIN
+data[7] => s_memory.DATAIN7
+adress[0] => s_memory~2.DATAIN
+adress[0] => s_memory.WADDR
+adress[0] => s_memory.RADDR
+adress[1] => s_memory~1.DATAIN
+adress[1] => s_memory.WADDR1
+adress[1] => s_memory.RADDR1
+adress[2] => s_memory~0.DATAIN
+adress[2] => s_memory.WADDR2
+adress[2] => s_memory.RADDR2
+adress[3] => ~NO_FANOUT~
+read_d[0] <= s_memory.DATAOUT
+read_d[1] <= s_memory.DATAOUT1
+read_d[2] <= s_memory.DATAOUT2
+read_d[3] <= s_memory.DATAOUT3
+read_d[4] <= s_memory.DATAOUT4
+read_d[5] <= s_memory.DATAOUT5
+read_d[6] <= s_memory.DATAOUT6
+read_d[7] <= s_memory.DATAOUT7
+
+

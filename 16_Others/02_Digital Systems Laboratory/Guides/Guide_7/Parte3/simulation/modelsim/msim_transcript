@@ -1,0 +1,188 @@
+# do ALU16_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:38:20 on Apr 04,2017
+# vcom -reportprogress 300 -93 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU16
+# -- Compiling architecture Behavioral of ALU16
+# ** Error: C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd(17): (vcom-1339) Case statement choices cover only 8 out of 729 cases.
+# 
+# ** Error: C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd(38): VHDL Compiler exiting
+# End time: 18:38:20 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+# ** Error: C:/altera_lite/15.1/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./ALU16_run_msim_rtl_vhdl.do line 8
+# C:/altera_lite/15.1/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd}"
+vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:38:36 on Apr 04,2017
+# vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU16_Tb
+# -- Compiling architecture Stimulus of ALU16_Tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity ALU16
+# End time: 18:38:36 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:38:40 on Apr 04,2017
+# vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU16_Tb
+# -- Compiling architecture Stimulus of ALU16_Tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity ALU16
+# End time: 18:38:40 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.alu16_tb(stimulus)
+# vsim work.alu16_tb(stimulus) 
+# Start time: 18:38:44 on Apr 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu16_tb(stimulus)
+# ** Error: (vsim-3170) Could not find 'C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/simulation/modelsim/rtl_work.alu16(behavioral)'.
+# 
+# Error loading design
+vsim work.alu16
+# vsim work.alu16 
+# Start time: 18:41:26 on Apr 04,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/simulation/modelsim/rtl_work.alu16' has no architecture.
+# 
+# Error loading design
+vsim work.alu16
+# vsim work.alu16 
+# Start time: 18:41:29 on Apr 04,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/simulation/modelsim/rtl_work.alu16' has no architecture.
+# 
+# Error loading design
+vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:41:36 on Apr 04,2017
+# vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU16
+# -- Compiling architecture Behavioral of ALU16
+# ** Error: C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd(17): (vcom-1339) Case statement choices cover only 8 out of 729 cases.
+# 
+# ** Error: C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd(38): VHDL Compiler exiting
+# End time: 18:41:36 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:41:37 on Apr 04,2017
+# vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU16
+# -- Compiling architecture Behavioral of ALU16
+# ** Error: C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd(17): (vcom-1339) Case statement choices cover only 8 out of 729 cases.
+# 
+# ** Error: C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd(38): VHDL Compiler exiting
+# End time: 18:41:37 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vsim work.alu16
+# vsim work.alu16 
+# Start time: 18:44:11 on Apr 04,2017
+# Loading std.standard
+# ** Error: (vsim-3173) Entity 'C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/simulation/modelsim/rtl_work.alu16' has no architecture.
+# 
+# Error loading design
+vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:44:15 on Apr 04,2017
+# vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU16
+# -- Compiling architecture Behavioral of ALU16
+# End time: 18:44:15 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:44:17 on Apr 04,2017
+# vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity ALU16
+# -- Compiling architecture Behavioral of ALU16
+# End time: 18:44:17 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:44:18 on Apr 04,2017
+# vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU16_Tb
+# -- Compiling architecture Stimulus of ALU16_Tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity ALU16
+# End time: 18:44:18 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16_Tb.vhd
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:44:20 on Apr 04,2017
+# vcom -reportprogress 300 -work work C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte3/ALU16_Tb.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity ALU16_Tb
+# -- Compiling architecture Stimulus of ALU16_Tb
+# -- Loading package NUMERIC_STD
+# -- Loading entity ALU16
+# End time: 18:44:20 on Apr 04,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.alu16_tb(stimulus)
+# vsim work.alu16_tb(stimulus) 
+# Start time: 18:44:22 on Apr 04,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.alu16_tb(stimulus)
+# Loading work.alu16(behavioral)
+add wave -position end  sim:/alu16_tb/s_op
+add wave -position end  sim:/alu16_tb/s_op0
+add wave -position end  sim:/alu16_tb/s_op1
+add wave -position end  sim:/alu16_tb/s_res
+add wave -position end  sim:/alu16_tb/s_mHi
+run
+# End time: 18:45:06 on Apr 04,2017, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 0

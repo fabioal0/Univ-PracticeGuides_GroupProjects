@@ -1,0 +1,56 @@
+|RegisterDemo
+LEDG[0] <= Register8:inst.k[0]
+LEDG[1] <= Register8:inst.k[1]
+LEDG[2] <= Register8:inst.k[2]
+LEDG[3] <= Register8:inst.k[3]
+LEDG[4] <= Register8:inst.k[4]
+LEDG[5] <= Register8:inst.k[5]
+LEDG[6] <= Register8:inst.k[6]
+LEDG[7] <= Register8:inst.k[7]
+KEY[0] => Register8:inst.clk
+SW[0] => Register8:inst.d[0]
+SW[1] => Register8:inst.d[1]
+SW[2] => Register8:inst.d[2]
+SW[3] => Register8:inst.d[3]
+SW[4] => Register8:inst.d[4]
+SW[5] => Register8:inst.d[5]
+SW[6] => Register8:inst.d[6]
+SW[7] => Register8:inst.d[7]
+SW[8] => Register8:inst.set
+
+
+|RegisterDemo|Register8:inst
+clk => k[0]~reg0.CLK
+clk => k[1]~reg0.CLK
+clk => k[2]~reg0.CLK
+clk => k[3]~reg0.CLK
+clk => k[4]~reg0.CLK
+clk => k[5]~reg0.CLK
+clk => k[6]~reg0.CLK
+clk => k[7]~reg0.CLK
+set => k[0]~reg0.ENA
+set => k[1]~reg0.ENA
+set => k[2]~reg0.ENA
+set => k[3]~reg0.ENA
+set => k[4]~reg0.ENA
+set => k[5]~reg0.ENA
+set => k[6]~reg0.ENA
+set => k[7]~reg0.ENA
+d[0] => k[0]~reg0.DATAIN
+d[1] => k[1]~reg0.DATAIN
+d[2] => k[2]~reg0.DATAIN
+d[3] => k[3]~reg0.DATAIN
+d[4] => k[4]~reg0.DATAIN
+d[5] => k[5]~reg0.DATAIN
+d[6] => k[6]~reg0.DATAIN
+d[7] => k[7]~reg0.DATAIN
+k[0] <= k[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+k[1] <= k[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+k[2] <= k[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+k[3] <= k[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+k[4] <= k[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+k[5] <= k[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+k[6] <= k[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+k[7] <= k[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

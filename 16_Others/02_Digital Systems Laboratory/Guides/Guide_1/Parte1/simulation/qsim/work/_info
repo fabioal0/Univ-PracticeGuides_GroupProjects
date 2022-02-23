@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula1/Parte1/simulation/qsim
+vGateDemo
+Z1 !s110 1489355909
+!i10b 1
+!s100 WV=@X0cXDW59JKNnTJS1c3
+I:T3h`MbVkX60c7?Gfh?1D3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1489355904
+8GateDemo.vo
+FGateDemo.vo
+L0 32
+Z3 OV;L;10.4b;61
+r1
+!s85 0
+31
+!s108 1489355908.000000
+!s107 GateDemo.vo|
+!s90 -work|work|GateDemo.vo|
+!i113 1
+Z4 o-work work
+n@gate@demo
+vGateDemo_vlg_vec_tst
+R1
+!i10b 1
+!s100 b4K8OnL?ePSSH@XOzMg8?2
+IF^B0LGogM4lz6@gRc_:Xo3
+R2
+R0
+w1489355899
+8GateDemo.vwf.vt
+FGateDemo.vwf.vt
+L0 30
+R3
+r1
+!s85 0
+31
+!s108 1489355909.000000
+!s107 GateDemo.vwf.vt|
+!s90 -work|work|GateDemo.vwf.vt|
+!i113 1
+R4
+n@gate@demo_vlg_vec_tst

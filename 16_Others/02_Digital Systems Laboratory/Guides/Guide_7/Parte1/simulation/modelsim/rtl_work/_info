@@ -1,0 +1,89 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/simulation/modelsim
+Edec2_4en
+Z1 w1491320671
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+R0
+Z4 8C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/Dec2_4En.vhd
+Z5 FC:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/Dec2_4En.vhd
+l0
+L4
+Vd3goEE2C6H[cREIeALLn]1
+!s100 E`C`i_?chAd[<BXNFWk:11
+Z6 OV;C;10.4b;61
+31
+Z7 !s110 1491322621
+!i10b 1
+Z8 !s108 1491322621.000000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/Dec2_4En.vhd|
+Z10 !s107 C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/Dec2_4En.vhd|
+!i113 1
+Z11 o-93 -work work
+Z12 tExplicit 1
+Abehavioral
+R2
+R3
+Z13 DEx4 work 8 dec2_4en 0 22 d3goEE2C6H[cREIeALLn]1
+l14
+L12
+VGe>Hf@`KZ0UJiG7hTcUiL1
+!s100 e`Tb;5ng;cjUQ7E?E]<2k3
+R6
+31
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edec2_4en_tb
+Z14 w1491321752
+R2
+R3
+R0
+Z15 8C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/Dec2_4En_Tb.vhd
+Z16 FC:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/Dec2_4En_Tb.vhd
+l0
+L5
+VYP>F6Y?nGz2:enMF[ozLb1
+!s100 VYmEUW?K@KWcTEFS[8Bck2
+R6
+32
+Z17 !s110 1491322636
+!i10b 1
+Z18 !s108 1491322636.000000
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/Dec2_4En_Tb.vhd|
+Z20 !s107 C:/Users/Vaio/Desktop/ECT/1ano/2semestre/lsd/aula7/Parte1/Dec2_4En_Tb.vhd|
+!i113 1
+Z21 o-work work
+R12
+Astimulus
+R13
+R2
+R3
+DEx4 work 11 dec2_4en_tb 0 22 YP>F6Y?nGz2:enMF[ozLb1
+l16
+L10
+V3m5?:_`3]F4VYf^9BPEl>3
+!s100 Vc^[ld?1dmAOjlz<HPlA@3
+R6
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R21
+R12

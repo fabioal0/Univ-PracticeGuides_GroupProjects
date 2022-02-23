@@ -1,0 +1,17 @@
+|SeqDetFSM
+reset => sel.OUTPUTSELECT
+reset => sel.OUTPUTSELECT
+reset => sel.OUTPUTSELECT
+reset => sel.OUTPUTSELECT
+reset => sel.OUTPUTSELECT
+clk => sel~1.DATAIN
+xin => mudar.E2.DATAA
+xin => mudar.E5.DATAB
+xin => xout.DATAB
+xin => mudar.E1.DATAB
+xin => mudar.E2.DATAB
+xin => Selector0.IN1
+xin => mudar.E4.DATAB
+xout <= xout.DB_MAX_OUTPUT_PORT_TYPE
+
+

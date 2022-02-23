@@ -1,0 +1,29 @@
+|FullAdder
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+sel => res.OUTPUTSELECT
+op1[0] => Add0.IN10
+op1[0] => Add1.IN6
+op1[1] => Add0.IN9
+op1[1] => Add1.IN5
+op1[2] => Add0.IN8
+op1[2] => Add1.IN4
+op1[3] => Add0.IN7
+op1[3] => Add1.IN3
+op2[0] => Add1.IN10
+op2[0] => Add0.IN6
+op2[1] => Add1.IN9
+op2[1] => Add0.IN5
+op2[2] => Add1.IN8
+op2[2] => Add0.IN4
+op2[3] => Add1.IN7
+op2[3] => Add0.IN3
+result[0] <= res.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= res.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= res.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= res.DB_MAX_OUTPUT_PORT_TYPE
+carryout <= res.DB_MAX_OUTPUT_PORT_TYPE
+
+
